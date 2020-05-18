@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculadora de Bases</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="interface">
+      <h1>Calculadora de Bases</h1>
+      <div id="temp">
+        <div class="comp">
+          <span>Binário:</span>
+          <input id="bin" type="text" name="" value="" oninput="binarioparadecimal()">
+        </div>
+        <div class="comp">
+          <span>Decimal:</span>
+          <input id="dec" type="text" name="" value="" oninput="decimalparabinario();decimalparaoctal();decimalparahexacimal()">
+        </div>
+        <div class="comp octal">
+          <span>Octal:</span>
+          <input id="oct" type="text" name="" value="" oninput="octalparadecimal()">
+        </div>
+        <div class="comp">
+          <span>Hexadecimal:</span>
+          <input id="hex" type="text" name="" value="" oninput="hexacimalparadecimal()">
+        </div>
+
+      </div>
+    </div>
+    <script src="js/script.js" charset="utf-8"></script>
+  </body>
+</html>
